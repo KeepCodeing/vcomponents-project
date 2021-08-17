@@ -1,14 +1,16 @@
 <template>
-  <prograss-steps></prograss-steps>
+  <hidden-search-widget />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import PrograssSteps from '@/components/PrograssSteps.vue'
+import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
+// import PrograssSteps from '@/components/PrograssSteps.vue'
 
 export default defineComponent({
   components: {
-    PrograssSteps
+    HiddenSearchWidget
+    // PrograssSteps
   }
 });
 </script>
