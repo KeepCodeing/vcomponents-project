@@ -1,15 +1,17 @@
 <template>
-  <hidden-search-widget />
+  <wave-form />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
+// import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
+import WaveForm from './components/WaveForm.vue';
 // import PrograssSteps from '@/components/PrograssSteps.vue'
 
 export default defineComponent({
   components: {
-    HiddenSearchWidget
+    // HiddenSearchWidget,
+    WaveForm
     // PrograssSteps
   }
 });
