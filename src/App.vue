@@ -1,5 +1,5 @@
 <template>
-  <animated-navigation />
+  <drink-water />
 </template>
 
 <script lang="ts">
@@ -9,7 +9,8 @@ import { defineComponent } from 'vue'
 // import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
 // import WaveForm from './components/WaveForm.vue';
 // import PrograssSteps from '@/components/PrograssSteps.vue'
-import AnimatedNavigation from '@/components/AnimatedNavigation.vue'
+// import AnimatedNavigation from '@/components/AnimatedNavigation.vue'
+import DrinkWater from './components/DrinkWater.vue';
 
 export default defineComponent({
   components: {
@@ -18,7 +19,8 @@ export default defineComponent({
     // FaqCollapse,
     // RandomChoicePicker
     // PrograssSteps
-    AnimatedNavigation
+    // AnimatedNavigation,
+    DrinkWater
   }
 });
 </script>
