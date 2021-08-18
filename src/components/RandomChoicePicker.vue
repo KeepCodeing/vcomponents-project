@@ -58,10 +58,10 @@ export default defineComponent({
       const timer = setInterval(() => {
         if (cnt++ > cLen) {
           clearInterval(timer);
-          setTimeout(() => choices.value = "", 1500);
+          setTimeout(() => { choices.value = ""; curIdx.value = -1; }, 1500);
         }
         curIdx.value = Math.floor(Math.random() * cLen);
-      }, 100);
+      }, 200);
       
     };
     return {
