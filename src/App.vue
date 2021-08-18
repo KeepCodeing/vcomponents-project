@@ -1,17 +1,19 @@
 <template>
-  <wave-form />
+  <faq-collapse />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import FaqCollapse from './components/FaqCollapse.vue';
 // import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
-import WaveForm from './components/WaveForm.vue';
+// import WaveForm from './components/WaveForm.vue';
 // import PrograssSteps from '@/components/PrograssSteps.vue'
 
 export default defineComponent({
   components: {
     // HiddenSearchWidget,
-    WaveForm
+    // WaveForm,
+    FaqCollapse
     // PrograssSteps
   }
 });
