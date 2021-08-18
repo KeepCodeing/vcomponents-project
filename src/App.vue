@@ -1,10 +1,11 @@
 <template>
-  <faq-collapse />
+  <random-choice-picker />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import FaqCollapse from './components/FaqCollapse.vue';
+// import FaqCollapse from './components/FaqCollapse.vue';
+import RandomChoicePicker from './components/RandomChoicePicker.vue';
 // import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
 // import WaveForm from './components/WaveForm.vue';
 // import PrograssSteps from '@/components/PrograssSteps.vue'
@@ -13,7 +14,8 @@ export default defineComponent({
   components: {
     // HiddenSearchWidget,
     // WaveForm,
-    FaqCollapse
+    // FaqCollapse,
+    RandomChoicePicker
     // PrograssSteps
   }
 });
