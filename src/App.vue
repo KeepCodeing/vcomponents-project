@@ -1,5 +1,5 @@
 <template>
-  <movie-app />
+  <theme-clock />
 </template>
 
 <script lang="ts">
@@ -11,7 +11,8 @@ import { defineComponent } from 'vue'
 // import PrograssSteps from '@/components/PrograssSteps.vue'
 // import AnimatedNavigation from '@/components/AnimatedNavigation.vue'
 // import DrinkWater from './components/DrinkWater.vue';
-import MovieApp from './components/MovieApp.vue';
+// import MovieApp from './components/MovieApp.vue';
+import ThemeClock from './components/ThemeClock.vue';
 
 export default defineComponent({
   components: {
@@ -22,7 +23,8 @@ export default defineComponent({
     // PrograssSteps
     // AnimatedNavigation,
     // DrinkWater,
-    MovieApp
+    // MovieApp,
+    ThemeClock
   }
 });
 </script>
