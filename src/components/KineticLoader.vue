@@ -1,0 +1,78 @@
+<template>
+  <div class="h-full w-full bg-blue-800 flex justify-center items-center">
+    <div class="kinetic">
+
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  setup () {
+    
+
+    return {}
+  }
+})
+</script>
+
+<style scoped>
+
+.kinetic {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+
+.kinetic::after,
+.kinetic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #fff;
+  animation: rotateA 2s linear infinite 0.5s;
+}
+
+.kinetic::before {
+  transform: rotate(90deg);
+  animation: rotateB 2s linear infinite;
+}
+
+@keyframes rotateA {
+  0%,
+  25% {
+    transform: rotate(0deg);
+  }
+
+  50%,
+  75% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateB {
+  0%,
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50%,
+  75% {
+    transform: rotate(270deg);
+  }
+
+  100% {
+    transform: rotate(450deg);
+  }
+}
+</style>

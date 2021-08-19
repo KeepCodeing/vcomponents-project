@@ -1,5 +1,5 @@
 <template>
-  <ripple-button />
+  <kinetic-loader />
 </template>
 
 <script lang="ts">
@@ -13,7 +13,8 @@ import { defineComponent } from 'vue'
 // import DrinkWater from './components/DrinkWater.vue';
 // import MovieApp from './components/MovieApp.vue';
 // import ThemeClock from './components/ThemeClock.vue';
-import RippleButton from '@/components/RippleButton.vue'
+// import RippleButton from '@/components/RippleButton.vue'
+import KineticLoader from '@/components/KineticLoader.vue'
 
 export default defineComponent({
   components: {
@@ -26,7 +27,8 @@ export default defineComponent({
     // DrinkWater,
     // MovieApp,
     // ThemeClock
-    RippleButton,
+    // RippleButton,
+    KineticLoader
   }
 });
 </script>
