@@ -1,9 +1,10 @@
 <template>
-  <sticky-navbar />
+  <double-vertical-slider />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import DoubleVerticalSlider from './components/DoubleVerticalSlider.vue';
 // import FaqCollapse from './components/FaqCollapse.vue';
 // import RandomChoicePicker from './components/RandomChoicePicker.vue';
 // import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
@@ -16,7 +17,7 @@ import { defineComponent } from 'vue'
 // import RippleButton from '@/components/RippleButton.vue'
 // import KineticLoader from '@/components/KineticLoader.vue'
 // import ContentPlaceholder from './components/ContentPlaceholder.vue';
-import StickyNavbar from './components/StickyNavbar.vue';
+// import StickyNavbar from './components/StickyNavbar.vue';
 
 export default defineComponent({
   components: {
@@ -32,7 +33,8 @@ export default defineComponent({
     // RippleButton,
     // KineticLoader,
     // ContentPlaceholder,
-    StickyNavbar
+    // StickyNavbar,
+    DoubleVerticalSlider
   }
 });
 </script>
