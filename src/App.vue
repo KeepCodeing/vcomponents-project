@@ -1,5 +1,5 @@
 <template>
-  <content-placeholder />
+  <sticky-navbar />
 </template>
 
 <script lang="ts">
@@ -15,7 +15,8 @@ import { defineComponent } from 'vue'
 // import ThemeClock from './components/ThemeClock.vue';
 // import RippleButton from '@/components/RippleButton.vue'
 // import KineticLoader from '@/components/KineticLoader.vue'
-import ContentPlaceholder from './components/ContentPlaceholder.vue';
+// import ContentPlaceholder from './components/ContentPlaceholder.vue';
+import StickyNavbar from './components/StickyNavbar.vue';
 
 export default defineComponent({
   components: {
@@ -30,7 +31,8 @@ export default defineComponent({
     // ThemeClock
     // RippleButton,
     // KineticLoader,
-    ContentPlaceholder
+    // ContentPlaceholder,
+    StickyNavbar
   }
 });
 </script>

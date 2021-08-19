@@ -37,14 +37,18 @@
           ></div>
           <div
             class="col-span-10 h-2 row-span-1 font-bold"
-            :class="{ 'bg-gray-200 mt-2 rounded-full animate-pulse': isLoading }"
+            :class="{
+              'bg-gray-200 mt-2 rounded-full animate-pulse': isLoading,
+            }"
           >
             <h2 v-show="!isLoading">{{ content.creator }}</h2>
           </div>
           <div
             class="col-span-10 h-2 row-span-1"
             :class="{ 'bg-gray-200 animate-pulse rounded-full': isLoading }"
-          ><p v-show="!isLoading">{{ content.date }}</p></div>
+          >
+            <p v-show="!isLoading">{{ content.date }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -63,7 +67,7 @@ export default defineComponent({
       creator: "UDK",
       date: "1919.5.14",
     });
-    setTimeout(() => (isLoading.value = false), 300);
+    setTimeout(() => (isLoading.value = false), 1000);
     return {
       isLoading,
       content,
