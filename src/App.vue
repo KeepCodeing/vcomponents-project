@@ -1,5 +1,5 @@
 <template>
-  <theme-clock />
+  <ripple-button />
 </template>
 
 <script lang="ts">
@@ -12,7 +12,8 @@ import { defineComponent } from 'vue'
 // import AnimatedNavigation from '@/components/AnimatedNavigation.vue'
 // import DrinkWater from './components/DrinkWater.vue';
 // import MovieApp from './components/MovieApp.vue';
-import ThemeClock from './components/ThemeClock.vue';
+// import ThemeClock from './components/ThemeClock.vue';
+import RippleButton from '@/components/RippleButton.vue'
 
 export default defineComponent({
   components: {
@@ -24,7 +25,8 @@ export default defineComponent({
     // AnimatedNavigation,
     // DrinkWater,
     // MovieApp,
-    ThemeClock
+    // ThemeClock
+    RippleButton,
   }
 });
 </script>
