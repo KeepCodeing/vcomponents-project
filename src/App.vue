@@ -1,5 +1,5 @@
 <template>
-  <drink-water />
+  <movie-app />
 </template>
 
 <script lang="ts">
@@ -10,7 +10,8 @@ import { defineComponent } from 'vue'
 // import WaveForm from './components/WaveForm.vue';
 // import PrograssSteps from '@/components/PrograssSteps.vue'
 // import AnimatedNavigation from '@/components/AnimatedNavigation.vue'
-import DrinkWater from './components/DrinkWater.vue';
+// import DrinkWater from './components/DrinkWater.vue';
+import MovieApp from './components/MovieApp.vue';
 
 export default defineComponent({
   components: {
@@ -20,7 +21,8 @@ export default defineComponent({
     // RandomChoicePicker
     // PrograssSteps
     // AnimatedNavigation,
-    DrinkWater
+    // DrinkWater,
+    MovieApp
   }
 });
 </script>
