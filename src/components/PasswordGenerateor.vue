@@ -118,8 +118,6 @@ export default defineComponent({
       const temp_choices = choices.filter((item) => item.checked);
       for (let i = 0; i < 20; i++)
         pwd.value += temp_choices.map((item) => item.fun());
-      console.log(pwdLen.value);
-      console.log(pwd.value);
       pwd.value = pwd.value.substr(0, pwdLen.value);
     };
 
