@@ -1,5 +1,5 @@
 <template>
-  <slider-button />
+  <notes-app />
 </template>
 
 <script lang="ts">
@@ -21,7 +21,8 @@ import { defineComponent } from 'vue'
 // import KineticLoader from '@/components/KineticLoader.vue'
 // import ContentPlaceholder from './components/ContentPlaceholder.vue';
 // import StickyNavbar from './components/StickyNavbar.vue';
-import SliderButton from '@/components/SliderButton.vue'
+// import SliderButton from '@/components/SliderButton.vue'
+import NotesApp from '@/components/NotesApp.vue'
 
 export default defineComponent({
   components: {
@@ -42,7 +43,8 @@ export default defineComponent({
     // ToastNotification,
     // GithubProfiles,
     // PasswordGenerateor,
-    SliderButton
+    // SliderButton
+    NotesApp
   }
 });
 </script>
