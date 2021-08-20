@@ -1,5 +1,5 @@
 <template>
-  <notes-app />
+  <animated-countdown />
 </template>
 
 <script lang="ts">
@@ -22,7 +22,8 @@ import { defineComponent } from 'vue'
 // import ContentPlaceholder from './components/ContentPlaceholder.vue';
 // import StickyNavbar from './components/StickyNavbar.vue';
 // import SliderButton from '@/components/SliderButton.vue'
-import NotesApp from '@/components/NotesApp.vue'
+// import NotesApp from '@/components/NotesApp.vue'
+import AnimatedCountdown from './components/AnimatedCountdown.vue';
 
 export default defineComponent({
   components: {
@@ -44,7 +45,8 @@ export default defineComponent({
     // GithubProfiles,
     // PasswordGenerateor,
     // SliderButton
-    NotesApp
+    // NotesApp,
+    AnimatedCountdown
   }
 });
 </script>
