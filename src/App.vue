@@ -1,10 +1,11 @@
 <template>
-  <github-profiles />
+  <password-generateor />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import GithubProfiles from './components/GithubProfiles.vue';
+// import GithubProfiles from './components/GithubProfiles.vue';
+import PasswordGenerateor from './components/PasswordGenerateor.vue';
 // import DoubleVerticalSlider from './components/DoubleVerticalSlider.vue';
 // import ToastNotification from './components/ToastNotification.vue';
 // import FaqCollapse from './components/FaqCollapse.vue';
@@ -38,7 +39,8 @@ export default defineComponent({
     // StickyNavbar,
     // DoubleVerticalSlider,
     // ToastNotification,
-    GithubProfiles
+    // GithubProfiles,
+    PasswordGenerateor
   }
 });
 </script>
