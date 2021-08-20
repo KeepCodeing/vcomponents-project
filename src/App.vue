@@ -1,11 +1,12 @@
 <template>
-  <toast-notification />
+  <github-profiles />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import GithubProfiles from './components/GithubProfiles.vue';
 // import DoubleVerticalSlider from './components/DoubleVerticalSlider.vue';
-import ToastNotification from './components/ToastNotification.vue';
+// import ToastNotification from './components/ToastNotification.vue';
 // import FaqCollapse from './components/FaqCollapse.vue';
 // import RandomChoicePicker from './components/RandomChoicePicker.vue';
 // import HiddenSearchWidget from './components/HiddenSearchWidget.vue';
@@ -36,7 +37,8 @@ export default defineComponent({
     // ContentPlaceholder,
     // StickyNavbar,
     // DoubleVerticalSlider,
-    ToastNotification
+    // ToastNotification,
+    GithubProfiles
   }
 });
 </script>
