@@ -1,11 +1,11 @@
 <template>
-  <password-generateor />
+  <slider-button />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 // import GithubProfiles from './components/GithubProfiles.vue';
-import PasswordGenerateor from './components/PasswordGenerateor.vue';
+// import PasswordGenerateor from './components/PasswordGenerateor.vue';
 // import DoubleVerticalSlider from './components/DoubleVerticalSlider.vue';
 // import ToastNotification from './components/ToastNotification.vue';
 // import FaqCollapse from './components/FaqCollapse.vue';
@@ -21,6 +21,7 @@ import PasswordGenerateor from './components/PasswordGenerateor.vue';
 // import KineticLoader from '@/components/KineticLoader.vue'
 // import ContentPlaceholder from './components/ContentPlaceholder.vue';
 // import StickyNavbar from './components/StickyNavbar.vue';
+import SliderButton from '@/components/SliderButton.vue'
 
 export default defineComponent({
   components: {
@@ -40,7 +41,8 @@ export default defineComponent({
     // DoubleVerticalSlider,
     // ToastNotification,
     // GithubProfiles,
-    PasswordGenerateor
+    // PasswordGenerateor,
+    SliderButton
   }
 });
 </script>
