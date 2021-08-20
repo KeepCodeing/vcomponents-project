@@ -38,7 +38,7 @@
     </div>
     <div class="h-full w-full px-10 gap-6 grid grid-cols-3 ">
       <div
-        class="col-span-1 shadow-md"
+        class="col-span-3 md:col-span-1 shadow-md"
         v-for="(item, idx) in noteList"
         :key="idx"
       >
@@ -78,7 +78,7 @@
             ></path>
           </svg>
         </div>
-        <div class="h-96">
+        <div class="h-60 md:h-96">
           <textarea
             :readonly="item.readonly"
             v-model="item.content"
