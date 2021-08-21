@@ -1,5 +1,5 @@
 <template>
-  <animated-countdown />
+  <mobile-tab-navigation />
 </template>
 
 <script lang="ts">
@@ -23,7 +23,8 @@ import { defineComponent } from 'vue'
 // import StickyNavbar from './components/StickyNavbar.vue';
 // import SliderButton from '@/components/SliderButton.vue'
 // import NotesApp from '@/components/NotesApp.vue'
-import AnimatedCountdown from './components/AnimatedCountdown.vue';
+// import AnimatedCountdown from './components/AnimatedCountdown.vue';
+import MobileTabNavigation from './components/MobileTabNavigation.vue';
 
 export default defineComponent({
   components: {
@@ -46,7 +47,8 @@ export default defineComponent({
     // PasswordGenerateor,
     // SliderButton
     // NotesApp,
-    AnimatedCountdown
+    // AnimatedCountdown,
+    MobileTabNavigation
   }
 });
 </script>
