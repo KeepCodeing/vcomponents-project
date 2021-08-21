@@ -1,5 +1,5 @@
 <template>
-  <feedback-ui-design />
+  <custom-range-slider />
 </template>
 
 <script lang="ts">
@@ -28,6 +28,7 @@ import { defineComponent } from 'vue'
 // import VerifyAccountUi from './components/VerifyAccountUi.vue';
 // import LiveUserFilter from '@/components/LiveUserFilter.vue'
 import FeedbackUiDesign from './components/FeedbackUiDesign.vue';
+import CustomRangeSlider from './components/CustomRangeSlider.vue';
 
 export default defineComponent({
   components: {
@@ -55,7 +56,8 @@ export default defineComponent({
     // PasswordStrengthBackground,
     // VerifyAccountUi
     // LiveUserFilter,
-    FeedbackUiDesign
+    // FeedbackUiDesign,
+    CustomRangeSlider
   }
 });
 </script>
