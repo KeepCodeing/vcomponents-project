@@ -1,5 +1,5 @@
 <template>
-  <verify-account-ui />
+  <live-user-filter />
 </template>
 
 <script lang="ts">
@@ -25,7 +25,8 @@ import { defineComponent } from 'vue'
 // import NotesApp from '@/components/NotesApp.vue'
 // import AnimatedCountdown from './components/AnimatedCountdown.vue';
 // import PasswordStrengthBackground from '@/components/PasswordStrengthBackground.vue'
-import VerifyAccountUi from './components/VerifyAccountUi.vue';
+// import VerifyAccountUi from './components/VerifyAccountUi.vue';
+import LiveUserFilter from '@/components/LiveUserFilter.vue'
 
 export default defineComponent({
   components: {
@@ -51,7 +52,8 @@ export default defineComponent({
     // AnimatedCountdown,
     // MobileTabNavigation
     // PasswordStrengthBackground,
-    VerifyAccountUi
+    // VerifyAccountUi
+    LiveUserFilter
   }
 });
 </script>
