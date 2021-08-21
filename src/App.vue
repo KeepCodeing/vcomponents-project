@@ -1,5 +1,5 @@
 <template>
-  <custom-range-slider />
+  <netflix-mobile-navigation />
 </template>
 
 <script lang="ts">
@@ -27,8 +27,9 @@ import { defineComponent } from 'vue'
 // import PasswordStrengthBackground from '@/components/PasswordStrengthBackground.vue'
 // import VerifyAccountUi from './components/VerifyAccountUi.vue';
 // import LiveUserFilter from '@/components/LiveUserFilter.vue'
-import FeedbackUiDesign from './components/FeedbackUiDesign.vue';
-import CustomRangeSlider from './components/CustomRangeSlider.vue';
+// import FeedbackUiDesign from './components/FeedbackUiDesign.vue';
+// import CustomRangeSlider from './components/CustomRangeSlider.vue';
+import NetflixMobileNavigation from './components/NetflixMobileNavigation.vue';
 
 export default defineComponent({
   components: {
@@ -57,7 +58,8 @@ export default defineComponent({
     // VerifyAccountUi
     // LiveUserFilter,
     // FeedbackUiDesign,
-    CustomRangeSlider
+    // CustomRangeSlider,
+    NetflixMobileNavigation
   }
 });
 </script>
