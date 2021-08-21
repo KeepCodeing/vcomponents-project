@@ -1,5 +1,5 @@
 <template>
-  <mobile-tab-navigation />
+  <password-strength-background />
 </template>
 
 <script lang="ts">
@@ -24,7 +24,7 @@ import { defineComponent } from 'vue'
 // import SliderButton from '@/components/SliderButton.vue'
 // import NotesApp from '@/components/NotesApp.vue'
 // import AnimatedCountdown from './components/AnimatedCountdown.vue';
-import MobileTabNavigation from './components/MobileTabNavigation.vue';
+import PasswordStrengthBackground from '@/components/PasswordStrengthBackground.vue'
 
 export default defineComponent({
   components: {
@@ -48,7 +48,8 @@ export default defineComponent({
     // SliderButton
     // NotesApp,
     // AnimatedCountdown,
-    MobileTabNavigation
+    // MobileTabNavigation
+    PasswordStrengthBackground
   }
 });
 </script>
