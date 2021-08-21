@@ -1,5 +1,5 @@
 <template>
-  <live-user-filter />
+  <feedback-ui-design />
 </template>
 
 <script lang="ts">
@@ -26,7 +26,8 @@ import { defineComponent } from 'vue'
 // import AnimatedCountdown from './components/AnimatedCountdown.vue';
 // import PasswordStrengthBackground from '@/components/PasswordStrengthBackground.vue'
 // import VerifyAccountUi from './components/VerifyAccountUi.vue';
-import LiveUserFilter from '@/components/LiveUserFilter.vue'
+// import LiveUserFilter from '@/components/LiveUserFilter.vue'
+import FeedbackUiDesign from './components/FeedbackUiDesign.vue';
 
 export default defineComponent({
   components: {
@@ -53,7 +54,8 @@ export default defineComponent({
     // MobileTabNavigation
     // PasswordStrengthBackground,
     // VerifyAccountUi
-    LiveUserFilter
+    // LiveUserFilter,
+    FeedbackUiDesign
   }
 });
 </script>
