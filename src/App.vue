@@ -1,5 +1,5 @@
 <template>
-  <password-strength-background />
+  <verify-account-ui />
 </template>
 
 <script lang="ts">
@@ -24,7 +24,8 @@ import { defineComponent } from 'vue'
 // import SliderButton from '@/components/SliderButton.vue'
 // import NotesApp from '@/components/NotesApp.vue'
 // import AnimatedCountdown from './components/AnimatedCountdown.vue';
-import PasswordStrengthBackground from '@/components/PasswordStrengthBackground.vue'
+// import PasswordStrengthBackground from '@/components/PasswordStrengthBackground.vue'
+import VerifyAccountUi from './components/VerifyAccountUi.vue';
 
 export default defineComponent({
   components: {
@@ -49,7 +50,8 @@ export default defineComponent({
     // NotesApp,
     // AnimatedCountdown,
     // MobileTabNavigation
-    PasswordStrengthBackground
+    // PasswordStrengthBackground,
+    VerifyAccountUi
   }
 });
 </script>
