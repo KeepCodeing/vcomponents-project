@@ -1,9 +1,9 @@
 <template>
-  <netflix-mobile-navigation />
+  <testimonial-box-switcher />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 // import GithubProfiles from './components/GithubProfiles.vue';
 // import PasswordGenerateor from './components/PasswordGenerateor.vue';
 // import DoubleVerticalSlider from './components/DoubleVerticalSlider.vue';
@@ -29,7 +29,8 @@ import { defineComponent } from 'vue'
 // import LiveUserFilter from '@/components/LiveUserFilter.vue'
 // import FeedbackUiDesign from './components/FeedbackUiDesign.vue';
 // import CustomRangeSlider from './components/CustomRangeSlider.vue';
-import NetflixMobileNavigation from './components/NetflixMobileNavigation.vue';
+// import NetflixMobileNavigation from './components/NetflixMobileNavigation.vue';
+import TestimonialBoxSwitcher from "./components/TestimonialBoxSwitcher.vue";
 
 export default defineComponent({
   components: {
@@ -59,8 +60,9 @@ export default defineComponent({
     // LiveUserFilter,
     // FeedbackUiDesign,
     // CustomRangeSlider,
-    NetflixMobileNavigation
-  }
+    // NetflixMobileNavigation,
+    TestimonialBoxSwitcher,
+  },
 });
 </script>
 
@@ -69,7 +71,9 @@ export default defineComponent({
   padding: 0;
   margin: 0;
 }
-html, body, #app {
+html,
+body,
+#app {
   height: 100%;
   width: 100%;
 }
